@@ -1,32 +1,51 @@
-# NexusAI — Python + React 
+# NexusAI 🤖
+### Full-Stack AI Chatbot (Python + React)
 
-A full-stack AI chatbot built with:
-- **FastAPI** (Python) backend
-- **React + Vite** frontend
-- Chat history saved in browser
-- 4 modes: Chat, Study, Research, Docs
-- PDF/TXT upload & Q&A
-- Image input (vision)
-- Voice input
+NexusAI is a powerful full-stack AI chatbot that supports multiple interaction modes including chat, research, document Q&A, and voice/image input.
 
 ---
 
+## 🚀 Features
+
+- 💬 Multi-mode chatbot:
+  - Chat mode  
+  - Study assistant  
+  - Research mode  
+  - Document Q&A  
+
+- 📄 File handling:
+  - Upload PDF/TXT files  
+  - Ask questions from documents  
+
+- 🧠 AI capabilities:
+  - Context-aware responses  
+  - Image input 
+  - Voice input  
+
+- 🖥️ Full-stack architecture:
+  - FastAPI backend  
+  - React + Vite frontend  
+
+- 💾 Chat history stored in browser  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js
+- **Backend:** FastAPI (Python)  
+- **API:** Groq API (LLM)  
+- **Other:** REST APIs  
+
+---
+
+## 📸 Demo
+
+### 💬 Chat Interface
+![Chat UI](screenshots/chat.png)
+
+### 📄 File Upload
+![Upload](screenshots/upload.png)
 
 
-## 📁 Structure
-```
-nexusai/
-├── app.py              ← Run this!
-├── backend/
-│   ├── main.py         ← Gemini API logic
-│   ├── requirements.txt
-│   └── .env            ← Your API key goes here
-└── frontend/
-    └── src/
-        ├── App.jsx
-        ├── api.js
-        ├── useHistory.js
-        └── components/
-```
-
-
+---
