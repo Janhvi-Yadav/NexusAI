@@ -1,0 +1,53 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg0: #0d0d14;
+  --bg1: #13131c;
+  --bg2: #1a1a26;
+  --bg3: #222232;
+  --acc: #6366f1;
+  --acc2: #8b5cf6;
+  --t1: #f1f0ff;
+  --t2: #9b98c0;
+  --t3: #55536e;
+  --bdr: rgba(255,255,255,0.07);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg0);
+  color: var(--t1);
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--bg3); border-radius: 4px; }
+* { scrollbar-width: thin; scrollbar-color: var(--bg3) transparent; }
+
+/* Mobile sidebar overlay */
+@media (max-width: 600px) {
+  #sidebar {
+    position: absolute !important;
+    z-index: 100;
+    height: 100vh;
+    box-shadow: 4px 0 20px rgba(0,0,0,0.5);
+  }
+}

@@ -1,0 +1,15 @@
+# Secret keys - never upload these
+backend/.env
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules - too large to upload
+node_modules/
+frontend/node_modules/
+
+# Build files
+frontend/dist/
