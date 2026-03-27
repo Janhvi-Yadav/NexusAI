@@ -8,7 +8,6 @@
 
 fastapi
 uvicorn[standard]
-groq
 python-multipart
 pydantic==2.6.4
 python-dotenv
