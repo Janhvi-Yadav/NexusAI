@@ -1,4 +1,4 @@
-const BASE = ''  // proxied via vite to http://localhost:8000
+const BASE = 'https://nexusai-zarz.onrender.com'
 
 export async function sendChat({ messages, mode, pdfText, pdfName, imageBase64, imageType }) {
   const res = await fetch(`${BASE}/chat`, {
