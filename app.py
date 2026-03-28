@@ -6,6 +6,7 @@ import os
 import webbrowser
 from pathlib import Path
 
+
 ROOT     = Path(__file__).parent
 BACKEND  = ROOT / "backend"
 FRONTEND = ROOT / "frontend"
